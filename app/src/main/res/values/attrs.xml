@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundProgressBarView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="padding" format="dimension" />
+        <attr name="pointWidth" format="dimension" />
+        <attr name="digree" format="integer" />
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+    </declare-styleable>
+</resources>

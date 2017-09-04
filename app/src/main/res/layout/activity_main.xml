@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom_progress="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.gaozhiming1506d0904.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/tvbut01"
+        android:textSize="25sp"
+        android:text="改变颜色"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/tvbut02"
+        android:textSize="25sp"
+        android:text="加速"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/tvbut03"
+        android:textSize="25sp"
+        android:text="减速"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.example.administrator.gaozhiming1506d0904.MyView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        custom_progress:roundWidth="2dp"
+        custom_progress:padding="10dp"
+        custom_progress:pointWidth="4dp"
+        custom_progress:digree="0"
+        custom_progress:roundColor="#3300d1d1"
+        custom_progress:roundProgressColor="#3300d1d1"/>
+</LinearLayout>
